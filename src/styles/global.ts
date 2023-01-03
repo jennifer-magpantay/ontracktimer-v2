@@ -24,6 +24,7 @@ html:focus-within {
 
 body {
   min-height: 100vh;
+  background-color:${(props) => props.theme.background};
   font-family: 'Roboto', sans-serif;
   font-size: 1.6rem;
   font-weight: 400;
@@ -50,18 +51,22 @@ select {
 }
 
 h1 {
+  color: ${(props) => props.theme.title}
   font-size: 6rem;
 }
 
 h2 {
+  color: ${(props) => props.theme.title}
   font-size: 4.8rem;
 }
 
 h3 {
+  color: ${(props) => props.theme.title}
   font-size: 3.4rem;
 }
 
 p {
+  color: ${(props) => props.theme.text}
   font-size: 1.6rem;
 }
 
