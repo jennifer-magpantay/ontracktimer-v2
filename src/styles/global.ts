@@ -24,8 +24,11 @@ html:focus-within {
 
 body {
   min-height: 100vh;
-  text-rendering: optimizeSpeed;
+  font-family: 'Roboto', sans-serif;
+  font-size: 1.6rem;
+  font-weight: 400;
   line-height: 1.5;
+  text-rendering: optimizeSpeed;
   -webkit-font-smoothing: antialiased;
 }
 
@@ -51,7 +54,7 @@ h1 {
 }
 
 h2 {
-font-size: 4.8rem;
+  font-size: 4.8rem;
 }
 
 h3 {
